@@ -6,11 +6,11 @@ Add this to your `composer.json` file:
 
 ```
 {
-  "repositories": [
+	"repositories": [
 		{
-    		"type": "composer",
-    		"url": "https://wpscholar.github.io/satis/"
-  		}
+			"type": "composer",
+			"url": "https://wpscholar.github.io/satis/"
+		}
 	]
 }
 ```
