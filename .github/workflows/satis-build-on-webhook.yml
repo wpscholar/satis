@@ -38,8 +38,6 @@ jobs:
         with:
           ref: gh-pages
           path: ./dist
-          persist-credentials: false
-          fetch-depth: 0
 
       - name: Run Build
         run: composer run build
@@ -55,11 +53,12 @@ jobs:
           git remote -v
           git add -A
           git commit -m "Satis build for commit ${{ github.sha }}"
-          git status -sb
+          git status
           cd -
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
+          branch: gh-pages
           directory: ./dist
           github_token: ${{ secrets.GITHUB_TOKEN }}
