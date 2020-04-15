@@ -55,7 +55,7 @@ jobs:
           git pull origin gh-pages
           git add -A
           git commit -m "Satis build for commit ${{ github.sha }}"
-          git status
+          git status -sb
           cd -
 
       - name: Push changes
