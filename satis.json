@@ -1,0 +1,10 @@
+{
+	"name": "wpscholar/satis",
+	"description": "",
+	"homepage": "https://wpscholar.github.io/satis/",
+	"include-filename": "all.json",
+	"repositories": [
+		{ "type": "vcs", "url": "https://github.com/wpscholar/hello-world" }
+	],
+	"require-all": true
+}
