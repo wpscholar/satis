@@ -1,51 +1,6 @@
 {
     "packages": {
         "wpscholar/hello-world": {
-            "1.1.1": {
-                "name": "wpscholar/hello-world",
-                "version": "1.1.1",
-                "version_normalized": "1.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wpscholar/hello-world.git",
-                    "reference": "77f66572691209cb5e2e7e7616c9a0e3205239a4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar/hello-world/zipball/77f66572691209cb5e2e7e7616c9a0e3205239a4",
-                    "reference": "77f66572691209cb5e2e7e7616c9a0e3205239a4",
-                    "shasum": ""
-                },
-                "require": {
-                    "wpscholar/flex-fields": "^1.7"
-                },
-                "time": "2019-01-09T22:01:15+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "wpscholar\\HelloWorld\\Composer\\": ""
-                    }
-                },
-                "scripts": {
-                    "pre-package-install": [
-                        "wpscholar\\HelloWorld\\Composer\\EventHandler::prePackageInstall"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
-                    }
-                ],
-                "description": "Hello there.",
-                "support": {
-                    "source": "https://github.com/wpscholar/hello-world/tree/1.1.1",
-                    "issues": "https://github.com/wpscholar/hello-world/issues"
-                }
-            },
             "1.1.16": {
                 "name": "wpscholar/hello-world",
                 "version": "1.1.16",
@@ -1087,25 +1042,25 @@
                     "issues": "https://github.com/wpscholar/hello-world/issues"
                 }
             },
-            "dev-master": {
+            "1.2.3": {
                 "name": "wpscholar/hello-world",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar/hello-world.git",
-                    "reference": "9bd44804b85e66918f5147c2f566f16b5ee83a03"
+                    "reference": "1e8adbc67fc0aa3eacab9e0a6d70f93a9696a137"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar/hello-world/zipball/9bd44804b85e66918f5147c2f566f16b5ee83a03",
-                    "reference": "9bd44804b85e66918f5147c2f566f16b5ee83a03",
+                    "url": "https://api.github.com/repos/wpscholar/hello-world/zipball/1e8adbc67fc0aa3eacab9e0a6d70f93a9696a137",
+                    "reference": "1e8adbc67fc0aa3eacab9e0a6d70f93a9696a137",
                     "shasum": ""
                 },
                 "require": {
                     "wpscholar/flex-fields": "^1.7"
                 },
-                "time": "2020-04-15T03:44:54+00:00",
+                "time": "2020-04-15T04:29:27+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1123,7 +1078,47 @@
                 ],
                 "description": "Hello there.",
                 "support": {
-                    "source": "https://github.com/wpscholar/hello-world/tree/1.2.2",
+                    "source": "https://github.com/wpscholar/hello-world/tree/1.2.3",
+                    "issues": "https://github.com/wpscholar/hello-world/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wpscholar/hello-world",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar/hello-world.git",
+                    "reference": "1e8adbc67fc0aa3eacab9e0a6d70f93a9696a137"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar/hello-world/zipball/1e8adbc67fc0aa3eacab9e0a6d70f93a9696a137",
+                    "reference": "1e8adbc67fc0aa3eacab9e0a6d70f93a9696a137",
+                    "shasum": ""
+                },
+                "require": {
+                    "wpscholar/flex-fields": "^1.7"
+                },
+                "time": "2020-04-15T04:29:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "wpscholar\\HelloWorld\\Composer\\": ""
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "Hello there.",
+                "support": {
+                    "source": "https://github.com/wpscholar/hello-world/tree/1.2.3",
                     "issues": "https://github.com/wpscholar/hello-world/issues"
                 }
             }
