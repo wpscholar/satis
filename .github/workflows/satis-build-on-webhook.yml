@@ -61,7 +61,7 @@ jobs:
           git config --local user.email "micah@wpscholar.com"
           git remote -v
           git add -A
-          git commit -m "Satis build triggered by release of $VENDOR/$PACKAGE version $VERSION"
+          git commit -m "Satis build triggered by release $VERSION of $VENDOR/$PACKAGE"
           git status
           cd -
 
