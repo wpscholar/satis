@@ -56,7 +56,7 @@ jobs:
           git config --local user.email "micah@wpscholar.com"
           git remote -v
           git add -A
-          git commit -m "Satis build for commit ${{ github.sha }}"
+          git commit -m "Satis build triggered by commit ${{ github.sha }}"
           git status
           cd -
 
