@@ -9,10 +9,10 @@ jobs:
     if: github.event.action == 'trigger_satis_build'
     steps:
 
-      - name: Dump GitHub context
+      - name: Dump GitHub event context
         env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
+          EVENT_CONTEXT: ${{ toJson(github.event) }}
+        run: echo "$EVENT_CONTEXT"
 
       - name: Checkout
         uses: actions/checkout@v2
@@ -51,13 +51,17 @@ jobs:
         run: ls -lah ./dist
 
       - name: Commit web files
+        env:
+          PACKAGE: ${{ github.event.client_payload.package }}
+          VENDOR: ${{ github.event.client_payload.vendor }}
+          VERSION: ${{ github.event.client_payload.version }}
         run: |
           cd ./dist
           git config --local user.name "Micah Wood"
           git config --local user.email "micah@wpscholar.com"
           git remote -v
           git add -A
-          git commit -m "Satis build triggered by commit ${{ github.sha }}"
+          git commit -m "Satis build triggered by release of $VENDOR/$PACKAGE version $VERSION"
           git status
           cd -
 
