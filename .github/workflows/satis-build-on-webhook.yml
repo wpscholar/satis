@@ -12,13 +12,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: PHP Version
+      - name: PHP version
         run: php --version
 
-      - name: Validate Composer Files
+      - name: Validate Composer files
         run: composer validate
 
-      - name: Get Composer Cache Directory
+      - name: Get Composer cache directory
         id: composer-cache
         run: echo "::set-output name=dir::$(composer config cache-files-dir)"
 
@@ -30,7 +30,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-composer-
 
-      - name: Install PHP Dependencies
+      - name: Install PHP dependencies
         run: composer install --prefer-dist --no-progress --no-suggest --no-dev
 
       - name: Checkout GitHub pages branch
@@ -42,19 +42,23 @@ jobs:
       - name: Run Build
         run: composer run build
 
-      - name: Commit Web Files
-        run: >
-          cd ./dist &&
-          git fetch --prune --unshallow &&
-          git pull &&
-          git config --local user.name "Micah Wood" &&
-          git config --local user.email "micah@wpscholar.com" &&
-          git add -A &&
-          git commit -m "Satis build for commit ${{ github.sha }}" &&
-          git status &&
+      - name: List files
+        run: ls -lah ./dist
+
+      - name: Commit web files
+        run: |
+          cd ./dist
+          git config --local user.name "Micah Wood"
+          git config --local user.email "micah@wpscholar.com"
+          git remote -v
+          git fetch --prune --unshallow
+          git pull
+          git add -A
+          git commit -m "Satis build for commit ${{ github.sha }}"
+          git status
           cd -
 
-      - name: Push Changes
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           directory: ./dist
