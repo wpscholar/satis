@@ -2,6 +2,8 @@ name: Satis Build On Push
 
 on:
   push:
+    paths-ignore:
+      - .github/**
     branches:
       - master
 
