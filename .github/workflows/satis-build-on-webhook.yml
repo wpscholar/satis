@@ -52,7 +52,7 @@ jobs:
           git config --local user.email "micah@wpscholar.com"
           git remote -v
           git fetch --prune --unshallow
-          git pull
+          git pull origin gh-pages
           git add -A
           git commit -m "Satis build for commit ${{ github.sha }}"
           git status
