@@ -48,6 +48,7 @@ jobs:
           git config --local user.name "Micah Wood" &&
           git config --local user.email "micah@wpscholar.com" &&
           git commit -m "Satis build for commit ${{ github.sha }}" -a &&
+          git status &&
           cd -
 
       - name: Push Changes
