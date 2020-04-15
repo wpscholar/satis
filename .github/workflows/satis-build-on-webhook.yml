@@ -9,6 +9,11 @@ jobs:
     if: github.event.action == 'trigger_satis_build'
     steps:
 
+      - name: Dump GitHub event context
+        env:
+          EVENT_CONTEXT: ${{ toJson(github.event) }}
+        run: echo "$EVENT_CONTEXT"
+
       - name: Checkout
         uses: actions/checkout@v2
 
@@ -52,7 +57,7 @@ jobs:
           git config --local user.email "micah@wpscholar.com"
           git remote -v
           git add -A
-          git commit -m "Satis build for commit ${{ github.sha }}"
+          git commit -m "Satis build triggered by commit ${{ github.sha }}"
           git status
           cd -
 
