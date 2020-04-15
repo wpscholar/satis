@@ -9,10 +9,10 @@ jobs:
     if: github.event.action == 'trigger_satis_build'
     steps:
 
-      - name: Dump GitHub event context
+      - name: Dump GitHub context
         env:
-          EVENT_CONTEXT: ${{ toJson(github.event) }}
-        run: echo "$EVENT_CONTEXT"
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
 
       - name: Checkout
         uses: actions/checkout@v2
