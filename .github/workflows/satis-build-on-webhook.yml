@@ -45,6 +45,7 @@ jobs:
       - name: Commit Web Files
         run: >
           cd ./dist &&
+          git fetch --prune --unshallow &&
           git config --local user.name "Micah Wood" &&
           git config --local user.email "micah@wpscholar.com" &&
           git add -A &&
