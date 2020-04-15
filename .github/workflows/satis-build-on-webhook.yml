@@ -35,8 +35,9 @@ jobs:
 
       - name: Checkout GitHub pages branch
         uses: actions/checkout@v2
-        ref: gh-pages
-        path: ./dist
+        with:
+          ref: gh-pages
+          path: ./dist
 
       - name: Run Build
         run: composer run build
