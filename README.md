@@ -1,5 +1,7 @@
 # WP Scholar Composer Repository
 
+[Satis](https://composer.github.io/satis/) is an open-source [Composer](https://getcomposer.org/) repository generator. This repository serves as Micahs's static file-based version of [Packagist](https://packagist.org/) and hosts the metadata of his packages.
+
 ## Usage
 
 Add this to your `composer.json` file:
@@ -54,7 +56,7 @@ jobs:
       with:
         token: ${{ secrets.WEBHOOK_TOKEN }}
         repository: wpscholar/satis
-        event-type: trigger_satis_build
+        event-type: 'Trigger Satis Build'
         client-payload: >-
           {
             "vendor": "${{ github.repository_owner }}",
@@ -64,4 +66,4 @@ jobs:
 
 ```
 
-You must create a personal access token with repository access and set it as the `WEBHOOK_TOKEN` secret.
+You must create a [personal access token](https://github.com/settings/tokens) with `repo` access and set it as the `WEBHOOK_TOKEN` secret on the remote repository. Also, make sure that GitHub Actions is enabled for the repository.

@@ -2,9 +2,8 @@ name: Satis Build On Push
 
 on:
   push:
-    paths-ignore:
-      - .github/**
-      - README.md
+    paths:
+      - satis.json
     branches:
       - master
 
@@ -36,7 +35,7 @@ jobs:
             ${{ runner.os }}-composer-
 
       - name: Install PHP dependencies
-        run: composer install --prefer-dist --no-progress --no-suggest --no-dev
+        run: composer install
 
       - name: Checkout GitHub pages branch
         uses: actions/checkout@v2

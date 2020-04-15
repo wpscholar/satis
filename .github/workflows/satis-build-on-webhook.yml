@@ -2,17 +2,15 @@ name: Satis Build via Webhook
 
 on: repository_dispatch
 
+env:
+  COMPOSER_AUTH: '{"github-oauth": {"github.com": "${{ secrets.TOKEN }}"}}'
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    if: github.event.action == 'trigger_satis_build'
+    if: github.event.action == 'Trigger Satis Build'
     steps:
-
-      - name: Dump GitHub event context
-        env:
-          EVENT_CONTEXT: ${{ toJson(github.event) }}
-        run: echo "$EVENT_CONTEXT"
 
       - name: Checkout
         uses: actions/checkout@v2
@@ -36,7 +34,7 @@ jobs:
             ${{ runner.os }}-composer-
 
       - name: Install PHP dependencies
-        run: composer install --prefer-dist --no-progress --no-suggest --no-dev
+        run: composer install
 
       - name: Checkout GitHub pages branch
         uses: actions/checkout@v2
