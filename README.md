@@ -63,3 +63,5 @@ jobs:
           }
 
 ```
+
+You must create a personal access token with repository access and set it as the `WEBHOOK_TOKEN` secret.
