@@ -6,59 +6,62 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    if: github.event_type == 'trigger_satis_build'
+    #if: github.event_type == 'trigger_satis_build'
     steps:
 
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Log Event Details
+        run: echo ${{ github.event }}
 
-      - name: PHP version
-        run: php --version
+      # - name: Checkout
+      #   uses: actions/checkout@v2
 
-      - name: Validate Composer files
-        run: composer validate
+      # - name: PHP version
+      #   run: php --version
 
-      - name: Get Composer cache directory
-        id: composer-cache
-        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+      # - name: Validate Composer files
+      #   run: composer validate
 
-      - name: Cache Composer vendor directory
-        uses: actions/cache@v1
-        with:
-          path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-composer-
+      # - name: Get Composer cache directory
+      #   id: composer-cache
+      #   run: echo "::set-output name=dir::$(composer config cache-files-dir)"
 
-      - name: Install PHP dependencies
-        run: composer install --prefer-dist --no-progress --no-suggest --no-dev
+      # - name: Cache Composer vendor directory
+      #   uses: actions/cache@v1
+      #   with:
+      #     path: ${{ steps.composer-cache.outputs.dir }}
+      #     key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-composer-
 
-      - name: Checkout GitHub pages branch
-        uses: actions/checkout@v2
-        with:
-          ref: gh-pages
-          path: ./dist
+      # - name: Install PHP dependencies
+      #   run: composer install --prefer-dist --no-progress --no-suggest --no-dev
 
-      - name: Run Build
-        run: composer run build
+      # - name: Checkout GitHub pages branch
+      #   uses: actions/checkout@v2
+      #   with:
+      #     ref: gh-pages
+      #     path: ./dist
 
-      - name: List files
-        run: ls -lah ./dist
+      # - name: Run Build
+      #   run: composer run build
 
-      - name: Commit web files
-        run: |
-          cd ./dist
-          git config --local user.name "Micah Wood"
-          git config --local user.email "micah@wpscholar.com"
-          git remote -v
-          git add -A
-          git commit -m "Satis build for commit ${{ github.sha }}"
-          git status
-          cd -
+      # - name: List files
+      #   run: ls -lah ./dist
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          branch: gh-pages
-          directory: ./dist
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Commit web files
+      #   run: |
+      #     cd ./dist
+      #     git config --local user.name "Micah Wood"
+      #     git config --local user.email "micah@wpscholar.com"
+      #     git remote -v
+      #     git add -A
+      #     git commit -m "Satis build for commit ${{ github.sha }}"
+      #     git status
+      #     cd -
+
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     branch: gh-pages
+      #     directory: ./dist
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
