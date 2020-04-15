@@ -46,6 +46,7 @@ jobs:
         run: >
           cd ./dist &&
           git fetch --prune --unshallow &&
+          git pull &&
           git config --local user.name "Micah Wood" &&
           git config --local user.email "micah@wpscholar.com" &&
           git add -A &&
