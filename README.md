@@ -4,20 +4,8 @@
 
 ## Usage
 
-Add this to your `composer.json` file:
-
-```
-{
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://wpscholar.github.io/satis/"
-		}
-	]
-}
-```
-
-Then, head over to https://wpscholar.github.io/satis/ to browse available packages.
+- Run `composer config repositories.wpscholar composer https://wpscholar.github.io/satis`
+- Head over to https://wpscholar.github.io/satis/ to browse available packages.
 
 ## Adding A Repo
 
