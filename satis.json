@@ -1,10 +1,41 @@
 {
-	"name": "wpscholar/satis",
-	"description": "WP Scholar Composer repository",
-	"homepage": "https://wpscholar.github.io/satis/",
-	"include-filename": "all.json",
-	"repositories": [
-		{ "type": "vcs", "url": "https://github.com/wpscholar/hello-world" }
-	],
-	"require-all": true
+  "name": "wpscholar/satis",
+  "description": "WP Scholar Composer repository",
+  "homepage": "https://wpscholar.github.io/satis/",
+  "include-filename": "all.json",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wpscholar-wp-plugins/stellar-places"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day"
+    }
+  ],
+  "require-all": true
 }
