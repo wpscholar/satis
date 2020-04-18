@@ -4,8 +4,8 @@
 	"license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "Micah Wood",
-            "email": "micah@wpscholar.com"
+          "name": "Micah Wood",
+          "homepage": "https://wpscholar.com"
         }
     ],
     "require": {
