@@ -67,6 +67,49 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/issues"
                 }
             },
+            "1.1.2": {
+                "name": "wpscholar/mpress-custom-front-page",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page.git",
+                    "reference": "afdaadd133907b2d5fa5d80827517c4ef0fa072b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-custom-front-page/zipball/afdaadd133907b2d5fa5d80827517c4ef0fa072b",
+                    "reference": "afdaadd133907b2d5fa5d80827517c4ef0fa072b",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-19T03:15:11+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "http://wpscholar.com"
+                    }
+                ],
+                "description": "Easily set any page or post, including custom post types, as the homepage for your site.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/tree/1.1.2",
+                    "issues": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/issues"
+                }
+            },
             "dev-master": {
                 "name": "wpscholar/mpress-custom-front-page",
                 "version": "dev-master",
@@ -74,29 +117,39 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page.git",
-                    "reference": "b0d6568f2292677163c1f15b397cfdb0f00d0262"
+                    "reference": "56cb12654c087e11e75679346615716b7ffe6e39"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-custom-front-page/zipball/b0d6568f2292677163c1f15b397cfdb0f00d0262",
-                    "reference": "b0d6568f2292677163c1f15b397cfdb0f00d0262",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-custom-front-page/zipball/56cb12654c087e11e75679346615716b7ffe6e39",
+                    "reference": "56cb12654c087e11e75679346615716b7ffe6e39",
                     "shasum": ""
                 },
-                "time": "2020-04-10T20:12:48+00:00",
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-19T03:45:18+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-2.0-or-later"
                 ],
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com",
-                        "homepage": "http://wpscholar.com",
-                        "role": "Developer"
+                        "homepage": "http://wpscholar.com"
                     }
                 ],
+                "description": "Easily set any page or post, including custom post types, as the homepage for your site.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/tree/1.1.1",
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/tree/master",
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/issues"
                 }
             },
@@ -135,23 +188,34 @@
             }
         },
         "wpscholar/mpress-hide-from-search": {
-            "dev-master": {
+            "1.0.2": {
                 "name": "wpscholar/mpress-hide-from-search",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
-                    "reference": "d6ed3bb1fd2cd4947fd2df88db0f20e4c18076ff"
+                    "reference": "cfa201c1789d4645b97713f0c416268a174e6c45"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/d6ed3bb1fd2cd4947fd2df88db0f20e4c18076ff",
-                    "reference": "d6ed3bb1fd2cd4947fd2df88db0f20e4c18076ff",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/cfa201c1789d4645b97713f0c416268a174e6c45",
+                    "reference": "cfa201c1789d4645b97713f0c416268a174e6c45",
                     "shasum": ""
                 },
-                "time": "2020-04-18T19:32:15+00:00",
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-19T03:44:40+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-2.0-or-later"
                 ],
@@ -163,7 +227,50 @@
                 ],
                 "description": "Hide specific pages from WordPress search.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/tree/master",
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/tree/1.0.2",
+                    "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wpscholar/mpress-hide-from-search",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
+                    "reference": "cfa201c1789d4645b97713f0c416268a174e6c45"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/cfa201c1789d4645b97713f0c416268a174e6c45",
+                    "reference": "cfa201c1789d4645b97713f0c416268a174e6c45",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-19T03:44:40+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "Hide specific pages from WordPress search.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/tree/1.0.2",
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
                 }
             }
@@ -341,15 +448,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh.git",
-                    "reference": "08ee369997a1d3dd0563d15272ba4b486934c788"
+                    "reference": "58d29f1e360981aa5bb6d88042602a990a09fc05"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-image-refresh/zipball/08ee369997a1d3dd0563d15272ba4b486934c788",
-                    "reference": "08ee369997a1d3dd0563d15272ba4b486934c788",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-image-refresh/zipball/58d29f1e360981aa5bb6d88042602a990a09fc05",
+                    "reference": "58d29f1e360981aa5bb6d88042602a990a09fc05",
                     "shasum": ""
                 },
-                "time": "2017-04-01T17:34:05+00:00",
+                "time": "2020-04-19T00:26:58+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2.0+"
@@ -357,13 +464,12 @@
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com",
-                        "homepage": "http://wpscholar.com",
-                        "role": "Developer"
+                        "homepage": "http://wpscholar.com"
                     }
                 ],
+                "description": "Show a fresh image on every page load.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh/tree/2.1.1",
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh/tree/master",
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh/issues"
                 }
             }
@@ -543,15 +649,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "69854893b29320f4b2b326d5ca64fc17a2bc24fd"
+                    "reference": "1e1bf015a72c62e5d4beb75283f619211b5ec684"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/69854893b29320f4b2b326d5ca64fc17a2bc24fd",
-                    "reference": "69854893b29320f4b2b326d5ca64fc17a2bc24fd",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/1e1bf015a72c62e5d4beb75283f619211b5ec684",
+                    "reference": "1e1bf015a72c62e5d4beb75283f619211b5ec684",
                     "shasum": ""
                 },
-                "time": "2020-04-18T19:33:25+00:00",
+                "time": "2020-04-19T01:26:52+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2.0-or-later"
