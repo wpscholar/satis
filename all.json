@@ -980,6 +980,52 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
                 }
             },
+            "1.1.1": {
+                "name": "wpscholar/stellar-places",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
+                    "reference": "45658755732949553d62f00fb8a9d66fcc502908"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/45658755732949553d62f00fb8a9d66fcc502908",
+                    "reference": "45658755732949553d62f00fb8a9d66fcc502908",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T03:01:27+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/1.1.1",
+                    "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
+                }
+            },
             "dev-master": {
                 "name": "wpscholar/stellar-places",
                 "version": "dev-master",
@@ -987,28 +1033,134 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "f68eac3a03e968945d42fcecc95ce2a87c708518"
+                    "reference": "45658755732949553d62f00fb8a9d66fcc502908"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/f68eac3a03e968945d42fcecc95ce2a87c708518",
-                    "reference": "f68eac3a03e968945d42fcecc95ce2a87c708518",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/45658755732949553d62f00fb8a9d66fcc502908",
+                    "reference": "45658755732949553d62f00fb8a9d66fcc502908",
                     "shasum": ""
                 },
-                "time": "2019-07-03T19:41:49+00:00",
+                "require": {
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T03:01:27+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-3.0"
                 ],
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
+                        "homepage": "https://wpscholar.com"
                     }
                 ],
                 "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/master",
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/1.1.1",
+                    "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/js-yaml-3.13.1": {
+                "name": "wpscholar/stellar-places",
+                "version": "dev-dependabot/npm_and_yarn/js-yaml-3.13.1",
+                "version_normalized": "dev-dependabot/npm_and_yarn/js-yaml-3.13.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
+                    "reference": "34d8e95ddbf2f85967f99909653a560c3b8ca45f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/34d8e95ddbf2f85967f99909653a560c3b8ca45f",
+                    "reference": "34d8e95ddbf2f85967f99909653a560c3b8ca45f",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T02:58:10+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/dependabot/npm_and_yarn/js-yaml-3.13.1",
+                    "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/mixin-deep-1.3.2": {
+                "name": "wpscholar/stellar-places",
+                "version": "dev-dependabot/npm_and_yarn/mixin-deep-1.3.2",
+                "version_normalized": "dev-dependabot/npm_and_yarn/mixin-deep-1.3.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
+                    "reference": "67933ad7e1ff853eb897a37f76a81c059130413b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/67933ad7e1ff853eb897a37f76a81c059130413b",
+                    "reference": "67933ad7e1ff853eb897a37f76a81c059130413b",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T02:58:08+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/dependabot/npm_and_yarn/mixin-deep-1.3.2",
                     "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
                 }
             },
@@ -1056,60 +1208,39 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day.git",
-                    "reference": "4dd8cf1ece27ba0376bcba98ee4d2e96d64679d0"
+                    "reference": "b4ccd6195b9cfa342c7e5abe0f7f8cbbbeac0cc4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/wp-post-of-the-day/zipball/4dd8cf1ece27ba0376bcba98ee4d2e96d64679d0",
-                    "reference": "4dd8cf1ece27ba0376bcba98ee4d2e96d64679d0",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/wp-post-of-the-day/zipball/b4ccd6195b9cfa342c7e5abe0f7f8cbbbeac0cc4",
+                    "reference": "b4ccd6195b9cfa342c7e5abe0f7f8cbbbeac0cc4",
                     "shasum": ""
                 },
-                "time": "2020-04-18T19:35:23+00:00",
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T01:18:06+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-2.0-or-later"
                 ],
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
+                        "homepage": "https://wpscholar.com"
                     }
                 ],
                 "description": "Displays a new WordPress post every day.",
                 "support": {
                     "source": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day/tree/master",
-                    "issues": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day/issues"
-                }
-            },
-            "dev-dependabot/npm_and_yarn/mixin-deep-1.3.2": {
-                "name": "wpscholar/wp-post-of-the-day",
-                "version": "dev-dependabot/npm_and_yarn/mixin-deep-1.3.2",
-                "version_normalized": "dev-dependabot/npm_and_yarn/mixin-deep-1.3.2",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day.git",
-                    "reference": "3292ea28189635999223257e63708a837fc119fa"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/wp-post-of-the-day/zipball/3292ea28189635999223257e63708a837fc119fa",
-                    "reference": "3292ea28189635999223257e63708a837fc119fa",
-                    "shasum": ""
-                },
-                "time": "2020-04-18T19:35:51+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
-                    }
-                ],
-                "description": "Displays a new WordPress post every day.",
-                "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day/tree/dependabot/npm_and_yarn/mixin-deep-1.3.2",
                     "issues": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day/issues"
                 }
             }
