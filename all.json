@@ -1,5 +1,43 @@
 {
     "packages": {
+        "aaronreimann/blank-slate": {
+            "dev-master": {
+                "name": "aaronreimann/blank-slate",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaronreimann/blank-slate.git",
+                    "reference": "a5bfaf9691263baf38945a79a03fff430c13e224"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaronreimann/blank-slate/zipball/a5bfaf9691263baf38945a79a03fff430c13e224",
+                    "reference": "a5bfaf9691263baf38945a79a03fff430c13e224",
+                    "shasum": ""
+                },
+                "time": "2020-04-21T03:15:28+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Aaron Reimann",
+                        "email": "aaronr@clockworkwp.com"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "A blank slate for use with WordPress page builders.",
+                "support": {
+                    "source": "https://github.com/aaronreimann/blank-slate/tree/master",
+                    "issues": "https://github.com/aaronreimann/blank-slate/issues"
+                }
+            }
+        },
         "wpscholar/mpress-custom-front-page": {
             "1.1": {
                 "name": "wpscholar/mpress-custom-front-page",
@@ -1033,12 +1071,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "45658755732949553d62f00fb8a9d66fcc502908"
+                    "reference": "7a60572e06c90efcbad384b9a24669bf290d1237"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/45658755732949553d62f00fb8a9d66fcc502908",
-                    "reference": "45658755732949553d62f00fb8a9d66fcc502908",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/7a60572e06c90efcbad384b9a24669bf290d1237",
+                    "reference": "7a60572e06c90efcbad384b9a24669bf290d1237",
                     "shasum": ""
                 },
                 "require": {
@@ -1047,7 +1085,7 @@
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-21T03:01:27+00:00",
+                "time": "2020-04-21T03:10:52+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1068,7 +1106,7 @@
                 ],
                 "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/1.1.1",
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/master",
                     "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
                 }
             },
