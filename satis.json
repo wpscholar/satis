@@ -6,6 +6,10 @@
   "repositories": [
     {
       "type": "vcs",
+      "url": "https://github.com/aaronreimann/blank-slate"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page"
     },
     {
