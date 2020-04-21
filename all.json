@@ -1,6 +1,53 @@
 {
     "packages": {
         "aaronreimann/blank-slate": {
+            "1.1.5": {
+                "name": "aaronreimann/blank-slate",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aaronreimann/blank-slate.git",
+                    "reference": "49185598a187e90c3a8207e50ce69fa443ab0680"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aaronreimann/blank-slate/zipball/49185598a187e90c3a8207e50ce69fa443ab0680",
+                    "reference": "49185598a187e90c3a8207e50ce69fa443ab0680",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T15:51:47+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Aaron Reimann",
+                        "homepage": "https://aaronreimann.com/"
+                    },
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "http://wpscholar.com"
+                    }
+                ],
+                "description": "Provides a blank page template for use with WordPress page builders.",
+                "support": {
+                    "source": "https://github.com/aaronreimann/blank-slate/tree/1.1.5",
+                    "issues": "https://github.com/aaronreimann/blank-slate/issues"
+                }
+            },
             "dev-master": {
                 "name": "aaronreimann/blank-slate",
                 "version": "dev-master",
@@ -8,32 +55,43 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/aaronreimann/blank-slate.git",
-                    "reference": "a5bfaf9691263baf38945a79a03fff430c13e224"
+                    "reference": "49185598a187e90c3a8207e50ce69fa443ab0680"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaronreimann/blank-slate/zipball/a5bfaf9691263baf38945a79a03fff430c13e224",
-                    "reference": "a5bfaf9691263baf38945a79a03fff430c13e224",
+                    "url": "https://api.github.com/repos/aaronreimann/blank-slate/zipball/49185598a187e90c3a8207e50ce69fa443ab0680",
+                    "reference": "49185598a187e90c3a8207e50ce69fa443ab0680",
                     "shasum": ""
                 },
-                "time": "2020-04-21T03:15:28+00:00",
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T15:51:47+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-2.0-or-later"
                 ],
                 "authors": [
                     {
                         "name": "Aaron Reimann",
-                        "email": "aaronr@clockworkwp.com"
+                        "homepage": "https://aaronreimann.com/"
                     },
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
+                        "homepage": "http://wpscholar.com"
                     }
                 ],
-                "description": "A blank slate for use with WordPress page builders.",
+                "description": "Provides a blank page template for use with WordPress page builders.",
                 "support": {
-                    "source": "https://github.com/aaronreimann/blank-slate/tree/master",
+                    "source": "https://github.com/aaronreimann/blank-slate/tree/1.1.5",
                     "issues": "https://github.com/aaronreimann/blank-slate/issues"
                 }
             }
@@ -663,18 +721,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh.git",
-                    "reference": "202865a2794aa2143c7f76838f7fbd074c60cfc4"
+                    "reference": "0a140e1237fdc3fe9b9bb9c4e4b0c6a8b9f68abd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/random-post-on-refresh/zipball/202865a2794aa2143c7f76838f7fbd074c60cfc4",
-                    "reference": "202865a2794aa2143c7f76838f7fbd074c60cfc4",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/random-post-on-refresh/zipball/0a140e1237fdc3fe9b9bb9c4e4b0c6a8b9f68abd",
+                    "reference": "0a140e1237fdc3fe9b9bb9c4e4b0c6a8b9f68abd",
                     "shasum": ""
                 },
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-20T14:48:31+00:00",
+                "time": "2020-04-21T03:29:30+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -690,7 +748,7 @@
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "homepage": "http://wpscholar.com"
+                        "homepage": "https://wpscholar.com"
                     }
                 ],
                 "description": "Show a random post on every page load.",
