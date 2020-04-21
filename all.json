@@ -117,18 +117,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page.git",
-                    "reference": "56cb12654c087e11e75679346615716b7ffe6e39"
+                    "reference": "242d3c545867b9a706a21695bebcac57a97492b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-custom-front-page/zipball/56cb12654c087e11e75679346615716b7ffe6e39",
-                    "reference": "56cb12654c087e11e75679346615716b7ffe6e39",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-custom-front-page/zipball/242d3c545867b9a706a21695bebcac57a97492b1",
+                    "reference": "242d3c545867b9a706a21695bebcac57a97492b1",
                     "shasum": ""
                 },
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-19T03:45:18+00:00",
+                "time": "2020-04-19T04:05:21+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -238,18 +238,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
-                    "reference": "cfa201c1789d4645b97713f0c416268a174e6c45"
+                    "reference": "52d683e0ed261cd596e48592f3b8c627a7fed69a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/cfa201c1789d4645b97713f0c416268a174e6c45",
-                    "reference": "cfa201c1789d4645b97713f0c416268a174e6c45",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/52d683e0ed261cd596e48592f3b8c627a7fed69a",
+                    "reference": "52d683e0ed261cd596e48592f3b8c627a7fed69a",
                     "shasum": ""
                 },
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-19T03:44:40+00:00",
+                "time": "2020-04-19T04:04:14+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -270,7 +270,7 @@
                 ],
                 "description": "Hide specific pages from WordPress search.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/tree/1.0.2",
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/tree/master",
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
                 }
             }
@@ -448,16 +448,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh.git",
-                    "reference": "58d29f1e360981aa5bb6d88042602a990a09fc05"
+                    "reference": "7a43c9de567261c6004c70abdc26bea43c99d978"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-image-refresh/zipball/58d29f1e360981aa5bb6d88042602a990a09fc05",
-                    "reference": "58d29f1e360981aa5bb6d88042602a990a09fc05",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-image-refresh/zipball/7a43c9de567261c6004c70abdc26bea43c99d978",
+                    "reference": "7a43c9de567261c6004c70abdc26bea43c99d978",
                     "shasum": ""
                 },
-                "time": "2020-04-19T00:26:58+00:00",
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-19T04:02:31+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-2.0+"
                 ],
@@ -614,34 +625,90 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh.git",
-                    "reference": "584bfda6fb12ee31a7c21c7a6c601db845f97153"
+                    "reference": "202865a2794aa2143c7f76838f7fbd074c60cfc4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/random-post-on-refresh/zipball/584bfda6fb12ee31a7c21c7a6c601db845f97153",
-                    "reference": "584bfda6fb12ee31a7c21c7a6c601db845f97153",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/random-post-on-refresh/zipball/202865a2794aa2143c7f76838f7fbd074c60cfc4",
+                    "reference": "202865a2794aa2143c7f76838f7fbd074c60cfc4",
                     "shasum": ""
                 },
-                "time": "2019-09-23T16:17:06+00:00",
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-20T14:48:31+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-2.0+"
                 ],
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com",
-                        "homepage": "http://wpscholar.com",
-                        "role": "Developer"
+                        "homepage": "http://wpscholar.com"
                     }
                 ],
+                "description": "Show a random post on every page load.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh/tree/1.2",
+                    "source": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh/tree/master",
                     "issues": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh/issues"
                 }
             }
         },
         "wpscholar/shortcode-scrubber": {
+            "1.0.2": {
+                "name": "wpscholar/shortcode-scrubber",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
+                    "reference": "b2471fbb3e643df9c7f79e8278ecf63ce2d0547d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/b2471fbb3e643df9c7f79e8278ecf63ce2d0547d",
+                    "reference": "b2471fbb3e643df9c7f79e8278ecf63ce2d0547d",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T00:34:17+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A powerful tool for cleaning up shortcodes on your site and confidently managing plugins and themes that use shortcodes.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/tree/1.0.2",
+                    "issues": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues"
+                }
+            },
             "dev-master": {
                 "name": "wpscholar/shortcode-scrubber",
                 "version": "dev-master",
@@ -649,28 +716,42 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "1e1bf015a72c62e5d4beb75283f619211b5ec684"
+                    "reference": "b2471fbb3e643df9c7f79e8278ecf63ce2d0547d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/1e1bf015a72c62e5d4beb75283f619211b5ec684",
-                    "reference": "1e1bf015a72c62e5d4beb75283f619211b5ec684",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/b2471fbb3e643df9c7f79e8278ecf63ce2d0547d",
+                    "reference": "b2471fbb3e643df9c7f79e8278ecf63ce2d0547d",
                     "shasum": ""
                 },
-                "time": "2020-04-19T01:26:52+00:00",
+                "require": {
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-21T00:34:17+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-2.0-or-later"
                 ],
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
+                        "homepage": "https://wpscholar.com"
                     }
                 ],
                 "description": "A powerful tool for cleaning up shortcodes on your site and confidently managing plugins and themes that use shortcodes.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/tree/master",
+                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/tree/1.0.2",
                     "issues": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues"
                 }
             }
@@ -823,31 +904,42 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
-                    "reference": "0e3d2b26a2bff1741d96f2413dbab19054c04cfb"
+                    "reference": "f518ebaaf0226b744b298d825af9b54f563d6ba5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/0e3d2b26a2bff1741d96f2413dbab19054c04cfb",
-                    "reference": "0e3d2b26a2bff1741d96f2413dbab19054c04cfb",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/f518ebaaf0226b744b298d825af9b54f563d6ba5",
+                    "reference": "f518ebaaf0226b744b298d825af9b54f563d6ba5",
                     "shasum": ""
                 },
                 "require": {
                     "wpscholar/url": "^1.1"
                 },
-                "time": "2019-06-26T21:14:20+00:00",
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-04-20T16:05:23+00:00",
                 "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
                 "license": [
                     "GPL-2.0-or-later"
                 ],
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
+                        "homepage": "https://wpscholar.com"
                     }
                 ],
                 "description": "A simple plugin designed to redirect an entire website (except the WordPress admin) to another website.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.3",
+                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/master",
                     "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
                 }
             }
