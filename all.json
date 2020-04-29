@@ -1129,12 +1129,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "4152a198aec5621564562ae90d99502f0a5fcd38"
+                    "reference": "f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/4152a198aec5621564562ae90d99502f0a5fcd38",
-                    "reference": "4152a198aec5621564562ae90d99502f0a5fcd38",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd",
+                    "reference": "f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd",
                     "shasum": ""
                 },
                 "require": {
@@ -1143,7 +1143,7 @@
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-29T00:57:26+00:00",
+                "time": "2020-04-29T01:04:30+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1175,12 +1175,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "4152a198aec5621564562ae90d99502f0a5fcd38"
+                    "reference": "f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/4152a198aec5621564562ae90d99502f0a5fcd38",
-                    "reference": "4152a198aec5621564562ae90d99502f0a5fcd38",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd",
+                    "reference": "f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd",
                     "shasum": ""
                 },
                 "require": {
@@ -1189,7 +1189,7 @@
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-29T00:57:26+00:00",
+                "time": "2020-04-29T01:04:30+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
