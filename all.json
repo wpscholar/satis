@@ -96,6 +96,39 @@
                 }
             }
         },
+        "wpscholar/blank-slate-pro": {
+            "dev-master": {
+                "name": "wpscholar/blank-slate-pro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:wpscholar/blank-slate-pro.git",
+                    "reference": "9c9ef0fb1c69a24b10f555eb6ad03b6325e2c56c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar/blank-slate-pro/zipball/9c9ef0fb1c69a24b10f555eb6ad03b6325e2c56c",
+                    "reference": "9c9ef0fb1c69a24b10f555eb6ad03b6325e2c56c",
+                    "shasum": ""
+                },
+                "time": "2020-05-01T14:03:11+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/wpscholar/blank-slate-pro/tree/master",
+                    "issues": "https://github.com/wpscholar/blank-slate-pro/issues"
+                }
+            }
+        },
         "wpscholar/mpress-custom-front-page": {
             "1.1": {
                 "name": "wpscholar/mpress-custom-front-page",
