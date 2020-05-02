@@ -6,7 +6,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/aaronreimann/blank-slate"
+            "url": "https://github.com/wp-blank-slate/blank-slate-pro"
         },
         {
             "type": "vcs",
@@ -39,10 +39,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/wpscholar/blank-slate-pro"
         }
     ],
     "require-all": true
