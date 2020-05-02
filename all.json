@@ -1,119 +1,39 @@
 {
     "packages": {
-        "aaronreimann/blank-slate": {
-            "1.1.5": {
-                "name": "aaronreimann/blank-slate",
-                "version": "1.1.5",
-                "version_normalized": "1.1.5.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/aaronreimann/blank-slate.git",
-                    "reference": "49185598a187e90c3a8207e50ce69fa443ab0680"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aaronreimann/blank-slate/zipball/49185598a187e90c3a8207e50ce69fa443ab0680",
-                    "reference": "49185598a187e90c3a8207e50ce69fa443ab0680",
-                    "shasum": ""
-                },
-                "require-dev": {
-                    "wpscholar/phpcs-standards-wpscholar": "@stable"
-                },
-                "time": "2020-04-21T15:51:47+00:00",
-                "type": "wordpress-plugin",
-                "scripts": {
-                    "fix": [
-                        "vendor/bin/phpcbf . -s"
-                    ],
-                    "lint": [
-                        "vendor/bin/phpcs . -s"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Aaron Reimann",
-                        "homepage": "https://aaronreimann.com/"
-                    },
-                    {
-                        "name": "Micah Wood",
-                        "homepage": "http://wpscholar.com"
-                    }
-                ],
-                "description": "Provides a blank page template for use with WordPress page builders.",
-                "support": {
-                    "source": "https://github.com/aaronreimann/blank-slate/tree/1.1.5",
-                    "issues": "https://github.com/aaronreimann/blank-slate/issues"
-                }
-            },
+        "wp-blank-slate/blank-slate-pro": {
             "dev-master": {
-                "name": "aaronreimann/blank-slate",
+                "name": "wp-blank-slate/blank-slate-pro",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/aaronreimann/blank-slate.git",
-                    "reference": "49185598a187e90c3a8207e50ce69fa443ab0680"
+                    "url": "git@github.com:wp-blank-slate/blank-slate-pro.git",
+                    "reference": "9f32e6a10e6b679d599922967b318da5f5509063"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aaronreimann/blank-slate/zipball/49185598a187e90c3a8207e50ce69fa443ab0680",
-                    "reference": "49185598a187e90c3a8207e50ce69fa443ab0680",
+                    "url": "https://api.github.com/repos/wp-blank-slate/blank-slate-pro/zipball/9f32e6a10e6b679d599922967b318da5f5509063",
+                    "reference": "9f32e6a10e6b679d599922967b318da5f5509063",
                     "shasum": ""
                 },
                 "require-dev": {
-                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4",
+                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
-                "time": "2020-04-21T15:51:47+00:00",
+                "time": "2020-05-02T15:53:26+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
-                        "vendor/bin/phpcbf . -s"
+                        "vendor/bin/phpcbf . --standard=WPScholar"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/blank-slate-pro.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/wp-blank-slate/blank-slate-pro/issues\",\"POT-Creation-Date\":null}'"
                     ],
                     "lint": [
-                        "vendor/bin/phpcs . -s"
+                        "vendor/bin/phpcs . --standard=WPScholar -s"
                     ]
                 },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "Aaron Reimann",
-                        "homepage": "https://aaronreimann.com/"
-                    },
-                    {
-                        "name": "Micah Wood",
-                        "homepage": "http://wpscholar.com"
-                    }
-                ],
-                "description": "Provides a blank page template for use with WordPress page builders.",
-                "support": {
-                    "source": "https://github.com/aaronreimann/blank-slate/tree/1.1.5",
-                    "issues": "https://github.com/aaronreimann/blank-slate/issues"
-                }
-            }
-        },
-        "wpscholar/blank-slate-pro": {
-            "dev-master": {
-                "name": "wpscholar/blank-slate-pro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:wpscholar/blank-slate-pro.git",
-                    "reference": "9c9ef0fb1c69a24b10f555eb6ad03b6325e2c56c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar/blank-slate-pro/zipball/9c9ef0fb1c69a24b10f555eb6ad03b6325e2c56c",
-                    "reference": "9c9ef0fb1c69a24b10f555eb6ad03b6325e2c56c",
-                    "shasum": ""
-                },
-                "time": "2020-05-01T14:03:11+00:00",
-                "type": "wordpress-plugin",
                 "license": [
                     "GPL-2.0-or-later"
                 ],
@@ -123,9 +43,10 @@
                         "email": "micah@wpscholar.com"
                     }
                 ],
+                "description": "Provides a blank page template for use with WordPress page builders.",
                 "support": {
-                    "source": "https://github.com/wpscholar/blank-slate-pro/tree/master",
-                    "issues": "https://github.com/wpscholar/blank-slate-pro/issues"
+                    "source": "https://github.com/wp-blank-slate/blank-slate-pro",
+                    "issues": "https://github.com/wp-blank-slate/blank-slate-pro/issues"
                 }
             }
         },
@@ -1208,12 +1129,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd"
+                    "reference": "ef1b069a98886dbb686978130fb6864d5712ce68"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd",
-                    "reference": "f5c8b37e2bdf0adb4123e5c08e6e9d7d5b25f0cd",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/ef1b069a98886dbb686978130fb6864d5712ce68",
+                    "reference": "ef1b069a98886dbb686978130fb6864d5712ce68",
                     "shasum": ""
                 },
                 "require": {
@@ -1222,7 +1143,7 @@
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-29T01:04:30+00:00",
+                "time": "2020-05-02T15:04:28+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1243,7 +1164,7 @@
                 ],
                 "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/1.1.2",
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/master",
                     "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
                 }
             },
