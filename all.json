@@ -766,12 +766,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "d0c357135e550c81947d809ba6272d3fb75f7e7b"
+                    "reference": "cc726b17aae534a99435f71f1ce1f3dfb5cff6f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/d0c357135e550c81947d809ba6272d3fb75f7e7b",
-                    "reference": "d0c357135e550c81947d809ba6272d3fb75f7e7b",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/cc726b17aae534a99435f71f1ce1f3dfb5cff6f4",
+                    "reference": "cc726b17aae534a99435f71f1ce1f3dfb5cff6f4",
                     "shasum": ""
                 },
                 "require": {
@@ -780,7 +780,7 @@
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-05-11T19:11:04+00:00",
+                "time": "2020-05-11T19:15:11+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -812,12 +812,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "d0c357135e550c81947d809ba6272d3fb75f7e7b"
+                    "reference": "cc726b17aae534a99435f71f1ce1f3dfb5cff6f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/d0c357135e550c81947d809ba6272d3fb75f7e7b",
-                    "reference": "d0c357135e550c81947d809ba6272d3fb75f7e7b",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/cc726b17aae534a99435f71f1ce1f3dfb5cff6f4",
+                    "reference": "cc726b17aae534a99435f71f1ce1f3dfb5cff6f4",
                     "shasum": ""
                 },
                 "require": {
@@ -826,7 +826,7 @@
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-05-11T19:11:04+00:00",
+                "time": "2020-05-11T19:15:11+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
