@@ -759,19 +759,19 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues"
                 }
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "wpscholar/shortcode-scrubber",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "b2471fbb3e643df9c7f79e8278ecf63ce2d0547d"
+                    "reference": "d0c357135e550c81947d809ba6272d3fb75f7e7b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/b2471fbb3e643df9c7f79e8278ecf63ce2d0547d",
-                    "reference": "b2471fbb3e643df9c7f79e8278ecf63ce2d0547d",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/d0c357135e550c81947d809ba6272d3fb75f7e7b",
+                    "reference": "d0c357135e550c81947d809ba6272d3fb75f7e7b",
                     "shasum": ""
                 },
                 "require": {
@@ -780,7 +780,7 @@
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-21T00:34:17+00:00",
+                "time": "2020-05-11T19:11:04+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -801,7 +801,53 @@
                 ],
                 "description": "A powerful tool for cleaning up shortcodes on your site and confidently managing plugins and themes that use shortcodes.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/tree/1.0.2",
+                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/tree/1.0.3",
+                    "issues": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wpscholar/shortcode-scrubber",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
+                    "reference": "d0c357135e550c81947d809ba6272d3fb75f7e7b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/d0c357135e550c81947d809ba6272d3fb75f7e7b",
+                    "reference": "d0c357135e550c81947d809ba6272d3fb75f7e7b",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-05-11T19:11:04+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A powerful tool for cleaning up shortcodes on your site and confidently managing plugins and themes that use shortcodes.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/tree/1.0.3",
                     "issues": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues"
                 }
             }
