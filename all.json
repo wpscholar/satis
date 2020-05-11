@@ -766,28 +766,34 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "cc726b17aae534a99435f71f1ce1f3dfb5cff6f4"
+                    "reference": "97c45fcf1cc12859758cfc23b9c966dbf098917a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/cc726b17aae534a99435f71f1ce1f3dfb5cff6f4",
-                    "reference": "cc726b17aae534a99435f71f1ce1f3dfb5cff6f4",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/97c45fcf1cc12859758cfc23b9c966dbf098917a",
+                    "reference": "97c45fcf1cc12859758cfc23b9c966dbf098917a",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-forge/wp-plugin-check": "^1.0"
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wpscholar/github-archive-installer": "^1.1"
                 },
                 "require-dev": {
-                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4",
+                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
-                "time": "2020-05-11T19:15:11+00:00",
+                "time": "2020-05-11T20:50:34+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
-                        "vendor/bin/phpcbf . -s"
+                        "vendor/bin/phpcbf . --standard=WPScholar"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/shortcode-scrubber.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues\",\"POT-Creation-Date\":null}'"
                     ],
                     "lint": [
-                        "vendor/bin/phpcs . -s"
+                        "vendor/bin/phpcs . --standard=WPScholar -s"
                     ]
                 },
                 "license": [
@@ -801,7 +807,7 @@
                 ],
                 "description": "A powerful tool for cleaning up shortcodes on your site and confidently managing plugins and themes that use shortcodes.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/tree/1.0.3",
+                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber",
                     "issues": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues"
                 }
             },
@@ -812,28 +818,34 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "cc726b17aae534a99435f71f1ce1f3dfb5cff6f4"
+                    "reference": "97c45fcf1cc12859758cfc23b9c966dbf098917a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/cc726b17aae534a99435f71f1ce1f3dfb5cff6f4",
-                    "reference": "cc726b17aae534a99435f71f1ce1f3dfb5cff6f4",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/97c45fcf1cc12859758cfc23b9c966dbf098917a",
+                    "reference": "97c45fcf1cc12859758cfc23b9c966dbf098917a",
                     "shasum": ""
                 },
                 "require": {
-                    "wp-forge/wp-plugin-check": "^1.0"
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wpscholar/github-archive-installer": "^1.1"
                 },
                 "require-dev": {
-                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4",
+                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
-                "time": "2020-05-11T19:15:11+00:00",
+                "time": "2020-05-11T20:50:34+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
-                        "vendor/bin/phpcbf . -s"
+                        "vendor/bin/phpcbf . --standard=WPScholar"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/shortcode-scrubber.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues\",\"POT-Creation-Date\":null}'"
                     ],
                     "lint": [
-                        "vendor/bin/phpcs . -s"
+                        "vendor/bin/phpcs . --standard=WPScholar -s"
                     ]
                 },
                 "license": [
@@ -847,7 +859,7 @@
                 ],
                 "description": "A powerful tool for cleaning up shortcodes on your site and confidently managing plugins and themes that use shortcodes.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/tree/1.0.3",
+                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber",
                     "issues": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues"
                 }
             }
