@@ -766,12 +766,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "8493378ac928cf2514c13d80060b49b6750d4b3d"
+                    "reference": "8f762f3ae51c6d598a76931de42d0417e512cfea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/8493378ac928cf2514c13d80060b49b6750d4b3d",
-                    "reference": "8493378ac928cf2514c13d80060b49b6750d4b3d",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/8f762f3ae51c6d598a76931de42d0417e512cfea",
+                    "reference": "8f762f3ae51c6d598a76931de42d0417e512cfea",
                     "shasum": ""
                 },
                 "require": {
@@ -783,7 +783,7 @@
                     "wp-cli/wp-cli": "^2.4",
                     "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
-                "time": "2020-05-11T21:07:33+00:00",
+                "time": "2020-05-11T22:00:00+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -818,12 +818,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "8493378ac928cf2514c13d80060b49b6750d4b3d"
+                    "reference": "8f762f3ae51c6d598a76931de42d0417e512cfea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/8493378ac928cf2514c13d80060b49b6750d4b3d",
-                    "reference": "8493378ac928cf2514c13d80060b49b6750d4b3d",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/8f762f3ae51c6d598a76931de42d0417e512cfea",
+                    "reference": "8f762f3ae51c6d598a76931de42d0417e512cfea",
                     "shasum": ""
                 },
                 "require": {
@@ -835,7 +835,7 @@
                     "wp-cli/wp-cli": "^2.4",
                     "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
-                "time": "2020-05-11T21:07:33+00:00",
+                "time": "2020-05-11T22:00:00+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
