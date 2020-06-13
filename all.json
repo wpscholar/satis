@@ -1274,19 +1274,19 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
                 }
             },
-            "dev-master": {
+            "1.2": {
                 "name": "wpscholar/stellar-places",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "131ea9ac5fc8c47d710f1ae866b11c1a95ad443a"
+                    "reference": "63d747e73df97ed787272cedd7e49d2729eab7e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/131ea9ac5fc8c47d710f1ae866b11c1a95ad443a",
-                    "reference": "131ea9ac5fc8c47d710f1ae866b11c1a95ad443a",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/63d747e73df97ed787272cedd7e49d2729eab7e9",
+                    "reference": "63d747e73df97ed787272cedd7e49d2729eab7e9",
                     "shasum": ""
                 },
                 "require": {
@@ -1296,7 +1296,7 @@
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-05-05T23:39:35+00:00",
+                "time": "2020-06-13T21:15:36+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1317,7 +1317,54 @@
                 ],
                 "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/1.1.4",
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/1.2",
+                    "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wpscholar/stellar-places",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
+                    "reference": "63d747e73df97ed787272cedd7e49d2729eab7e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/63d747e73df97ed787272cedd7e49d2729eab7e9",
+                    "reference": "63d747e73df97ed787272cedd7e49d2729eab7e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/wp-geo-query": "^1.0",
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-06-13T21:15:36+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/1.2",
                     "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
                 }
             },
