@@ -281,29 +281,44 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
                 }
             },
-            "dev-master": {
+            "1.1": {
                 "name": "wpscholar/mpress-hide-from-search",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
-                    "reference": "52d683e0ed261cd596e48592f3b8c627a7fed69a"
+                    "reference": "d30f8de4de7669fc1d193fd0e00089149495e85d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/52d683e0ed261cd596e48592f3b8c627a7fed69a",
-                    "reference": "52d683e0ed261cd596e48592f3b8c627a7fed69a",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/d30f8de4de7669fc1d193fd0e00089149495e85d",
+                    "reference": "d30f8de4de7669fc1d193fd0e00089149495e85d",
                     "shasum": ""
                 },
-                "require-dev": {
-                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                "require": {
+                    "wp-forge/container": "^1.0",
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wp-forge/wp-upgrade-handler": "^1.0"
                 },
-                "time": "2020-04-19T04:04:14+00:00",
+                "require-dev": {
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4",
+                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
+                },
+                "time": "2020-06-20T18:50:42+00:00",
                 "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "HideFromSearch\\": "includes"
+                    }
+                },
                 "scripts": {
                     "fix": [
                         "vendor/bin/phpcbf . -s"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mpress-hide-from-search.pot --headers='{\"POT-Creation-Date\":null}' --exclude=tests"
                     ],
                     "lint": [
                         "vendor/bin/phpcs . -s"
@@ -315,12 +330,70 @@
                 "authors": [
                     {
                         "name": "Micah Wood",
-                        "email": "micah@wpscholar.com"
+                        "homepage": "https://wpscholar.com"
                     }
                 ],
-                "description": "Hide specific pages from WordPress search.",
+                "description": "Hide individual WordPress pages from search engines and/or WordPress search results.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/tree/master",
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search",
+                    "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wpscholar/mpress-hide-from-search",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
+                    "reference": "d30f8de4de7669fc1d193fd0e00089149495e85d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/d30f8de4de7669fc1d193fd0e00089149495e85d",
+                    "reference": "d30f8de4de7669fc1d193fd0e00089149495e85d",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/container": "^1.0",
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wp-forge/wp-upgrade-handler": "^1.0"
+                },
+                "require-dev": {
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4",
+                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
+                },
+                "time": "2020-06-20T18:50:42+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "HideFromSearch\\": "includes"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mpress-hide-from-search.pot --headers='{\"POT-Creation-Date\":null}' --exclude=tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Hide individual WordPress pages from search engines and/or WordPress search results.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search",
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
                 }
             }
