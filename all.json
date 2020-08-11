@@ -1470,12 +1470,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
-                    "reference": "fee3f4fa86f059bf42014f858bd9745681fdde93"
+                    "reference": "104f82dd2103720e18031f5b4ac1335d91264049"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/fee3f4fa86f059bf42014f858bd9745681fdde93",
-                    "reference": "fee3f4fa86f059bf42014f858bd9745681fdde93",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/104f82dd2103720e18031f5b4ac1335d91264049",
+                    "reference": "104f82dd2103720e18031f5b4ac1335d91264049",
                     "shasum": ""
                 },
                 "require": {
@@ -1485,7 +1485,7 @@
                     "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-11T22:37:24+00:00",
+                "time": "2020-08-11T22:48:21+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1520,12 +1520,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
-                    "reference": "fee3f4fa86f059bf42014f858bd9745681fdde93"
+                    "reference": "104f82dd2103720e18031f5b4ac1335d91264049"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/fee3f4fa86f059bf42014f858bd9745681fdde93",
-                    "reference": "fee3f4fa86f059bf42014f858bd9745681fdde93",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/104f82dd2103720e18031f5b4ac1335d91264049",
+                    "reference": "104f82dd2103720e18031f5b4ac1335d91264049",
                     "shasum": ""
                 },
                 "require": {
@@ -1535,7 +1535,7 @@
                     "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-11T22:37:24+00:00",
+                "time": "2020-08-11T22:48:21+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
