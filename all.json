@@ -1790,12 +1790,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "862ba07ec539a143d1abe4fd5580934f50389985"
+                    "reference": "7f2d994add4e917e5b30ff765546fd88e7525144"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/862ba07ec539a143d1abe4fd5580934f50389985",
-                    "reference": "862ba07ec539a143d1abe4fd5580934f50389985",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/7f2d994add4e917e5b30ff765546fd88e7525144",
+                    "reference": "7f2d994add4e917e5b30ff765546fd88e7525144",
                     "shasum": ""
                 },
                 "require": {
@@ -1806,7 +1806,7 @@
                     "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-11T21:51:06+00:00",
+                "time": "2020-08-11T21:58:03+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1841,12 +1841,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "862ba07ec539a143d1abe4fd5580934f50389985"
+                    "reference": "7f2d994add4e917e5b30ff765546fd88e7525144"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/862ba07ec539a143d1abe4fd5580934f50389985",
-                    "reference": "862ba07ec539a143d1abe4fd5580934f50389985",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/7f2d994add4e917e5b30ff765546fd88e7525144",
+                    "reference": "7f2d994add4e917e5b30ff765546fd88e7525144",
                     "shasum": ""
                 },
                 "require": {
@@ -1857,7 +1857,7 @@
                     "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-11T21:51:06+00:00",
+                "time": "2020-08-11T21:58:03+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
