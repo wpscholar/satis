@@ -49,19 +49,19 @@
                     "issues": "https://github.com/wp-blank-slate/blank-slate-pro/issues"
                 }
             },
-            "dev-master": {
+            "1.1": {
                 "name": "wp-blank-slate/blank-slate-pro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:wp-blank-slate/blank-slate-pro.git",
-                    "reference": "9f32e6a10e6b679d599922967b318da5f5509063"
+                    "reference": "552e7384183ff70ef9cf327164e853cb7f85a735"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wp-blank-slate/blank-slate-pro/zipball/9f32e6a10e6b679d599922967b318da5f5509063",
-                    "reference": "9f32e6a10e6b679d599922967b318da5f5509063",
+                    "url": "https://api.github.com/repos/wp-blank-slate/blank-slate-pro/zipball/552e7384183ff70ef9cf327164e853cb7f85a735",
+                    "reference": "552e7384183ff70ef9cf327164e853cb7f85a735",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -69,7 +69,55 @@
                     "wp-cli/wp-cli": "^2.4",
                     "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
-                "time": "2020-05-02T15:53:26+00:00",
+                "time": "2020-08-11T18:46:42+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=WPScholar"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/blank-slate-pro.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/wp-blank-slate/blank-slate-pro/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=WPScholar -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "email": "micah@wpscholar.com"
+                    }
+                ],
+                "description": "Provides a blank page template for use with WordPress page builders.",
+                "support": {
+                    "source": "https://github.com/wp-blank-slate/blank-slate-pro",
+                    "issues": "https://github.com/wp-blank-slate/blank-slate-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wp-blank-slate/blank-slate-pro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:wp-blank-slate/blank-slate-pro.git",
+                    "reference": "552e7384183ff70ef9cf327164e853cb7f85a735"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wp-blank-slate/blank-slate-pro/zipball/552e7384183ff70ef9cf327164e853cb7f85a735",
+                    "reference": "552e7384183ff70ef9cf327164e853cb7f85a735",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4",
+                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
+                },
+                "time": "2020-08-11T18:46:42+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
