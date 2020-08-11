@@ -1413,32 +1413,36 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
                 }
             },
-            "dev-master": {
+            "1.2.4": {
                 "name": "wpscholar/simple-website-redirect",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
-                    "reference": "fcd2f5dfafcc8d9345039777c2acab6802e47884"
+                    "reference": "859e7d0f72e374e07e02532afa8f6888ce5bc526"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/fcd2f5dfafcc8d9345039777c2acab6802e47884",
-                    "reference": "fcd2f5dfafcc8d9345039777c2acab6802e47884",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/859e7d0f72e374e07e02532afa8f6888ce5bc526",
+                    "reference": "859e7d0f72e374e07e02532afa8f6888ce5bc526",
                     "shasum": ""
                 },
                 "require": {
                     "wpscholar/url": "^1.1"
                 },
                 "require-dev": {
+                    "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-06T19:11:26+00:00",
+                "time": "2020-08-11T19:49:14+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
-                        "vendor/bin/phpcbf . -s"
+                        "vendor/bin/phpcbf ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/simple-website-redirect.pot --headers='{\"POT-Creation-Date\":null}'"
                     ],
                     "lint": [
                         "vendor/bin/phpcs . -s"
@@ -1455,7 +1459,57 @@
                 ],
                 "description": "A simple plugin designed to redirect an entire website (except the WordPress admin) to another website.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/master",
+                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.4",
+                    "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wpscholar/simple-website-redirect",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
+                    "reference": "859e7d0f72e374e07e02532afa8f6888ce5bc526"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/859e7d0f72e374e07e02532afa8f6888ce5bc526",
+                    "reference": "859e7d0f72e374e07e02532afa8f6888ce5bc526",
+                    "shasum": ""
+                },
+                "require": {
+                    "wpscholar/url": "^1.1"
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-bundle": "@stable",
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-08-11T19:49:14+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/simple-website-redirect.pot --headers='{\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A simple plugin designed to redirect an entire website (except the WordPress admin) to another website.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.4",
                     "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
                 }
             }
