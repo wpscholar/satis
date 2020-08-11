@@ -263,18 +263,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page.git",
-                    "reference": "242d3c545867b9a706a21695bebcac57a97492b1"
+                    "reference": "651b199de60837ba857eb51b7bf99a35b6e784c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-custom-front-page/zipball/242d3c545867b9a706a21695bebcac57a97492b1",
-                    "reference": "242d3c545867b9a706a21695bebcac57a97492b1",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-custom-front-page/zipball/651b199de60837ba857eb51b7bf99a35b6e784c5",
+                    "reference": "651b199de60837ba857eb51b7bf99a35b6e784c5",
                     "shasum": ""
                 },
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-19T04:05:21+00:00",
+                "time": "2020-08-11T22:09:46+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -485,12 +485,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
-                    "reference": "d30f8de4de7669fc1d193fd0e00089149495e85d"
+                    "reference": "39659fdf5911c65e00cf3003957e7b294623193f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/d30f8de4de7669fc1d193fd0e00089149495e85d",
-                    "reference": "d30f8de4de7669fc1d193fd0e00089149495e85d",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/39659fdf5911c65e00cf3003957e7b294623193f",
+                    "reference": "39659fdf5911c65e00cf3003957e7b294623193f",
                     "shasum": ""
                 },
                 "require": {
@@ -503,7 +503,7 @@
                     "wp-cli/wp-cli": "^2.4",
                     "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
-                "time": "2020-06-20T18:50:42+00:00",
+                "time": "2020-08-11T22:14:11+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -768,18 +768,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh.git",
-                    "reference": "7a43c9de567261c6004c70abdc26bea43c99d978"
+                    "reference": "e190546d766b902e59f87e320d1c47cefb51aaeb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-image-refresh/zipball/7a43c9de567261c6004c70abdc26bea43c99d978",
-                    "reference": "7a43c9de567261c6004c70abdc26bea43c99d978",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-image-refresh/zipball/e190546d766b902e59f87e320d1c47cefb51aaeb",
+                    "reference": "e190546d766b902e59f87e320d1c47cefb51aaeb",
                     "shasum": ""
                 },
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-19T04:02:31+00:00",
+                "time": "2020-08-11T22:11:39+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -988,18 +988,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh.git",
-                    "reference": "0a140e1237fdc3fe9b9bb9c4e4b0c6a8b9f68abd"
+                    "reference": "fc3959820f1cf0ae074eb45515e56221f0242c41"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/random-post-on-refresh/zipball/0a140e1237fdc3fe9b9bb9c4e4b0c6a8b9f68abd",
-                    "reference": "0a140e1237fdc3fe9b9bb9c4e4b0c6a8b9f68abd",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/random-post-on-refresh/zipball/fc3959820f1cf0ae074eb45515e56221f0242c41",
+                    "reference": "fc3959820f1cf0ae074eb45515e56221f0242c41",
                     "shasum": ""
                 },
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-21T03:29:30+00:00",
+                "time": "2020-08-11T22:15:52+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1174,12 +1174,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
-                    "reference": "17a94625f4e58093cbdea6d524fec3101147ca55"
+                    "reference": "0e3aae7dd19256b95089ad417dd46dc9b4c15a74"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/17a94625f4e58093cbdea6d524fec3101147ca55",
-                    "reference": "17a94625f4e58093cbdea6d524fec3101147ca55",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/0e3aae7dd19256b95089ad417dd46dc9b4c15a74",
+                    "reference": "0e3aae7dd19256b95089ad417dd46dc9b4c15a74",
                     "shasum": ""
                 },
                 "require": {
@@ -1191,7 +1191,7 @@
                     "wp-cli/wp-cli": "^2.4",
                     "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
-                "time": "2020-05-11T22:22:34+00:00",
+                "time": "2020-08-11T22:07:59+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1463,19 +1463,19 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
                 }
             },
-            "dev-master": {
+            "1.2.5": {
                 "name": "wpscholar/simple-website-redirect",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.5",
+                "version_normalized": "1.2.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
-                    "reference": "859e7d0f72e374e07e02532afa8f6888ce5bc526"
+                    "reference": "e1cd182e8c5464fe43e78a79d5969e13b9c16eba"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/859e7d0f72e374e07e02532afa8f6888ce5bc526",
-                    "reference": "859e7d0f72e374e07e02532afa8f6888ce5bc526",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/e1cd182e8c5464fe43e78a79d5969e13b9c16eba",
+                    "reference": "e1cd182e8c5464fe43e78a79d5969e13b9c16eba",
                     "shasum": ""
                 },
                 "require": {
@@ -1485,7 +1485,7 @@
                     "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-11T19:49:14+00:00",
+                "time": "2020-08-11T22:29:26+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1509,7 +1509,57 @@
                 ],
                 "description": "A simple plugin designed to redirect an entire website (except the WordPress admin) to another website.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.4",
+                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.5",
+                    "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wpscholar/simple-website-redirect",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
+                    "reference": "e1cd182e8c5464fe43e78a79d5969e13b9c16eba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/e1cd182e8c5464fe43e78a79d5969e13b9c16eba",
+                    "reference": "e1cd182e8c5464fe43e78a79d5969e13b9c16eba",
+                    "shasum": ""
+                },
+                "require": {
+                    "wpscholar/url": "^1.1"
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-bundle": "@stable",
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-08-11T22:29:26+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/simple-website-redirect.pot --headers='{\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A simple plugin designed to redirect an entire website (except the WordPress admin) to another website.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.5",
                     "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
                 }
             }
@@ -2068,18 +2118,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day.git",
-                    "reference": "b4ccd6195b9cfa342c7e5abe0f7f8cbbbeac0cc4"
+                    "reference": "c6819c16d415e0e7a526485e55d393f58029a71e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/wp-post-of-the-day/zipball/b4ccd6195b9cfa342c7e5abe0f7f8cbbbeac0cc4",
-                    "reference": "b4ccd6195b9cfa342c7e5abe0f7f8cbbbeac0cc4",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/wp-post-of-the-day/zipball/c6819c16d415e0e7a526485e55d393f58029a71e",
+                    "reference": "c6819c16d415e0e7a526485e55d393f58029a71e",
                     "shasum": ""
                 },
                 "require-dev": {
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-04-21T01:18:06+00:00",
+                "time": "2020-08-11T22:05:43+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
