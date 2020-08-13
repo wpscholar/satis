@@ -478,19 +478,19 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
                 }
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "wpscholar/mpress-hide-from-search",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
-                    "reference": "39659fdf5911c65e00cf3003957e7b294623193f"
+                    "reference": "b4293542367a62aff1fa26b37f468bfacae7927d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/39659fdf5911c65e00cf3003957e7b294623193f",
-                    "reference": "39659fdf5911c65e00cf3003957e7b294623193f",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/b4293542367a62aff1fa26b37f468bfacae7927d",
+                    "reference": "b4293542367a62aff1fa26b37f468bfacae7927d",
                     "shasum": ""
                 },
                 "require": {
@@ -499,11 +499,10 @@
                     "wp-forge/wp-upgrade-handler": "^1.0"
                 },
                 "require-dev": {
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-cli/wp-cli": "^2.4",
-                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
+                    "wp-cli/wp-cli-bundle": "@stable",
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-11T22:14:11+00:00",
+                "time": "2020-08-13T18:47:52+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -536,19 +535,19 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/lodash-4.17.19": {
+            "dev-master": {
                 "name": "wpscholar/mpress-hide-from-search",
-                "version": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
-                "version_normalized": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
-                    "reference": "c76c6b24b7e4ed9bd2cdce6d4a43773daf61aa61"
+                    "reference": "b4293542367a62aff1fa26b37f468bfacae7927d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/c76c6b24b7e4ed9bd2cdce6d4a43773daf61aa61",
-                    "reference": "c76c6b24b7e4ed9bd2cdce6d4a43773daf61aa61",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/b4293542367a62aff1fa26b37f468bfacae7927d",
+                    "reference": "b4293542367a62aff1fa26b37f468bfacae7927d",
                     "shasum": ""
                 },
                 "require": {
@@ -557,11 +556,10 @@
                     "wp-forge/wp-upgrade-handler": "^1.0"
                 },
                 "require-dev": {
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-cli/wp-cli": "^2.4",
-                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
+                    "wp-cli/wp-cli-bundle": "@stable",
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-07-20T08:57:43+00:00",
+                "time": "2020-08-13T18:47:52+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
