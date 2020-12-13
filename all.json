@@ -299,6 +299,49 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/issues"
                 }
             },
+            "dev-dependabot/npm_and_yarn/ini-1.3.8": {
+                "name": "wpscholar/mpress-custom-front-page",
+                "version": "dev-dependabot/npm_and_yarn/ini-1.3.8",
+                "version_normalized": "dev-dependabot/npm_and_yarn/ini-1.3.8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page.git",
+                    "reference": "43f697fa6126685dab51b1f271a562814a6b1426"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-custom-front-page/zipball/43f697fa6126685dab51b1f271a562814a6b1426",
+                    "reference": "43f697fa6126685dab51b1f271a562814a6b1426",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-12-12T14:36:17+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "http://wpscholar.com"
+                    }
+                ],
+                "description": "Easily set any page or post, including custom post types, as the homepage for your site.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/tree/dependabot/npm_and_yarn/ini-1.3.8",
+                    "issues": "https://github.com/wpscholar-wp-plugins/mpress-custom-front-page/issues"
+                }
+            },
             "dev-dependabot/npm_and_yarn/lodash-4.17.19": {
                 "name": "wpscholar/mpress-custom-front-page",
                 "version": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
@@ -542,12 +585,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
-                    "reference": "b4293542367a62aff1fa26b37f468bfacae7927d"
+                    "reference": "acff9a1a0e67c84f03792a8aa8d6c31315435f01"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/b4293542367a62aff1fa26b37f468bfacae7927d",
-                    "reference": "b4293542367a62aff1fa26b37f468bfacae7927d",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/acff9a1a0e67c84f03792a8aa8d6c31315435f01",
+                    "reference": "acff9a1a0e67c84f03792a8aa8d6c31315435f01",
                     "shasum": ""
                 },
                 "require": {
@@ -559,7 +602,64 @@
                     "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-13T18:47:52+00:00",
+                "time": "2020-09-01T19:53:58+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "HideFromSearch\\": "includes"
+                    }
+                },
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/mpress-hide-from-search.pot --headers='{\"POT-Creation-Date\":null}' --exclude=tests"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Hide individual WordPress pages from search engines and/or WordPress search results.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search",
+                    "issues": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/ini-1.3.8": {
+                "name": "wpscholar/mpress-hide-from-search",
+                "version": "dev-dependabot/npm_and_yarn/ini-1.3.8",
+                "version_normalized": "dev-dependabot/npm_and_yarn/ini-1.3.8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/mpress-hide-from-search.git",
+                    "reference": "c55ccfe11dc5737153d838b4e1a7b2aab2b48e0d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-hide-from-search/zipball/c55ccfe11dc5737153d838b4e1a7b2aab2b48e0d",
+                    "reference": "c55ccfe11dc5737153d838b4e1a7b2aab2b48e0d",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/container": "^1.0",
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wp-forge/wp-upgrade-handler": "^1.0"
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-bundle": "@stable",
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-12-12T14:36:26+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -802,6 +902,49 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh/issues"
                 }
             },
+            "dev-dependabot/npm_and_yarn/ini-1.3.8": {
+                "name": "wpscholar/mpress-image-refresh",
+                "version": "dev-dependabot/npm_and_yarn/ini-1.3.8",
+                "version_normalized": "dev-dependabot/npm_and_yarn/ini-1.3.8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh.git",
+                    "reference": "970c599c0663c9184d3fdf50d8b779955ce6bbbd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/mpress-image-refresh/zipball/970c599c0663c9184d3fdf50d8b779955ce6bbbd",
+                    "reference": "970c599c0663c9184d3fdf50d8b779955ce6bbbd",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-12-12T14:36:36+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "http://wpscholar.com"
+                    }
+                ],
+                "description": "Show a fresh image on every page load.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh/tree/dependabot/npm_and_yarn/ini-1.3.8",
+                    "issues": "https://github.com/wpscholar-wp-plugins/mpress-image-refresh/issues"
+                }
+            },
             "dev-dependabot/npm_and_yarn/lodash-4.17.19": {
                 "name": "wpscholar/mpress-image-refresh",
                 "version": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
@@ -1022,6 +1165,49 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh/issues"
                 }
             },
+            "dev-dependabot/npm_and_yarn/ini-1.3.7": {
+                "name": "wpscholar/random-post-on-refresh",
+                "version": "dev-dependabot/npm_and_yarn/ini-1.3.7",
+                "version_normalized": "dev-dependabot/npm_and_yarn/ini-1.3.7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh.git",
+                    "reference": "fbfdeaca054a821e7664ccda4508c9f9e7bd21df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/random-post-on-refresh/zipball/fbfdeaca054a821e7664ccda4508c9f9e7bd21df",
+                    "reference": "fbfdeaca054a821e7664ccda4508c9f9e7bd21df",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-12-10T20:04:42+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Show a random post on every page load.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh/tree/dependabot/npm_and_yarn/ini-1.3.7",
+                    "issues": "https://github.com/wpscholar-wp-plugins/random-post-on-refresh/issues"
+                }
+            },
             "dev-dependabot/npm_and_yarn/lodash-4.17.19": {
                 "name": "wpscholar/random-post-on-refresh",
                 "version": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
@@ -1190,6 +1376,58 @@
                     "wpscholar/phpcs-standards-wpscholar": "^1.0"
                 },
                 "time": "2020-08-11T22:07:59+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . --standard=WPScholar"
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/shortcode-scrubber.pot --headers='{\"Report-Msgid-Bugs-To\":\"https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues\",\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . --standard=WPScholar -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A powerful tool for cleaning up shortcodes on your site and confidently managing plugins and themes that use shortcodes.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber",
+                    "issues": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/ini-1.3.8": {
+                "name": "wpscholar/shortcode-scrubber",
+                "version": "dev-dependabot/npm_and_yarn/ini-1.3.8",
+                "version_normalized": "dev-dependabot/npm_and_yarn/ini-1.3.8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/shortcode-scrubber.git",
+                    "reference": "7fd82f4162b136eeee216768b8a8ab1affe275dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/shortcode-scrubber/zipball/7fd82f4162b136eeee216768b8a8ab1affe275dc",
+                    "reference": "7fd82f4162b136eeee216768b8a8ab1affe275dc",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/wp-plugin-check": "^1.0",
+                    "wpscholar/github-archive-installer": "^1.1"
+                },
+                "require-dev": {
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-cli/wp-cli": "^2.4",
+                    "wpscholar/phpcs-standards-wpscholar": "^1.0"
+                },
+                "time": "2020-12-12T14:45:45+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1511,19 +1749,19 @@
                     "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
                 }
             },
-            "dev-master": {
+            "1.2.6": {
                 "name": "wpscholar/simple-website-redirect",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
-                    "reference": "caa07436a82e0ed0b9a8ef08a403db551e39fd1a"
+                    "reference": "2003ccf4808d099bd5a04568aaca90f230f19dac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/caa07436a82e0ed0b9a8ef08a403db551e39fd1a",
-                    "reference": "caa07436a82e0ed0b9a8ef08a403db551e39fd1a",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/2003ccf4808d099bd5a04568aaca90f230f19dac",
+                    "reference": "2003ccf4808d099bd5a04568aaca90f230f19dac",
                     "shasum": ""
                 },
                 "require": {
@@ -1533,7 +1771,7 @@
                     "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-11T22:57:01+00:00",
+                "time": "2020-12-13T18:44:45+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1557,7 +1795,57 @@
                 ],
                 "description": "A simple plugin designed to redirect an entire website (except the WordPress admin) to another website.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.5",
+                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.6",
+                    "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
+                }
+            },
+            "dev-master": {
+                "name": "wpscholar/simple-website-redirect",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/simple-website-redirect.git",
+                    "reference": "2003ccf4808d099bd5a04568aaca90f230f19dac"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/simple-website-redirect/zipball/2003ccf4808d099bd5a04568aaca90f230f19dac",
+                    "reference": "2003ccf4808d099bd5a04568aaca90f230f19dac",
+                    "shasum": ""
+                },
+                "require": {
+                    "wpscholar/url": "^1.1"
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-bundle": "@stable",
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-12-13T18:44:45+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/simple-website-redirect.pot --headers='{\"POT-Creation-Date\":null}'"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "A simple plugin designed to redirect an entire website (except the WordPress admin) to another website.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/tree/1.2.6",
                     "issues": "https://github.com/wpscholar-wp-plugins/simple-website-redirect/issues"
                 }
             }
@@ -1889,12 +2177,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
-                    "reference": "7f2d994add4e917e5b30ff765546fd88e7525144"
+                    "reference": "d3f54429ac1c6ac443d093dc5c8a8d8e8625e388"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/7f2d994add4e917e5b30ff765546fd88e7525144",
-                    "reference": "7f2d994add4e917e5b30ff765546fd88e7525144",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/d3f54429ac1c6ac443d093dc5c8a8d8e8625e388",
+                    "reference": "d3f54429ac1c6ac443d093dc5c8a8d8e8625e388",
                     "shasum": ""
                 },
                 "require": {
@@ -1905,7 +2193,7 @@
                     "wp-cli/wp-cli-bundle": "@stable",
                     "wpscholar/phpcs-standards-wpscholar": "@stable"
                 },
-                "time": "2020-08-11T21:58:03+00:00",
+                "time": "2020-09-10T19:26:39+00:00",
                 "type": "wordpress-plugin",
                 "scripts": {
                     "fix": [
@@ -1929,7 +2217,7 @@
                 ],
                 "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
                 "support": {
-                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/1.3",
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/master",
                     "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
                 }
             },
@@ -1977,6 +2265,57 @@
                 "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
                 "support": {
                     "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/dependabot/npm_and_yarn/elliptic-6.5.3",
+                    "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/ini-1.3.7": {
+                "name": "wpscholar/stellar-places",
+                "version": "dev-dependabot/npm_and_yarn/ini-1.3.7",
+                "version_normalized": "dev-dependabot/npm_and_yarn/ini-1.3.7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/stellar-places.git",
+                    "reference": "080e5a33a93b0f65bb682e5b89ec58d64560daa4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/stellar-places/zipball/080e5a33a93b0f65bb682e5b89ec58d64560daa4",
+                    "reference": "080e5a33a93b0f65bb682e5b89ec58d64560daa4",
+                    "shasum": ""
+                },
+                "require": {
+                    "wp-forge/wp-geo-query": "^1.0",
+                    "wp-forge/wp-plugin-check": "^1.0"
+                },
+                "require-dev": {
+                    "wp-cli/wp-cli-bundle": "@stable",
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-12-11T15:32:49+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf ."
+                    ],
+                    "i18n": [
+                        "vendor/bin/wp i18n make-pot . ./languages/stellar-places.pot --headers='{\"POT-Creation-Date\":null}' --exclude=assets"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Stellar Places is an intuitive plugin for easily creating, managing and displaying locations using Google Maps.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/stellar-places/tree/dependabot/npm_and_yarn/ini-1.3.7",
                     "issues": "https://github.com/wpscholar-wp-plugins/stellar-places/issues"
                 }
             },
@@ -2149,6 +2488,49 @@
                 "description": "Displays a new WordPress post every day.",
                 "support": {
                     "source": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day/tree/master",
+                    "issues": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day/issues"
+                }
+            },
+            "dev-dependabot/npm_and_yarn/ini-1.3.7": {
+                "name": "wpscholar/wp-post-of-the-day",
+                "version": "dev-dependabot/npm_and_yarn/ini-1.3.7",
+                "version_normalized": "dev-dependabot/npm_and_yarn/ini-1.3.7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day.git",
+                    "reference": "ba69b6ce994dc06c38a070ea3c580fba2e138060"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/wpscholar-wp-plugins/wp-post-of-the-day/zipball/ba69b6ce994dc06c38a070ea3c580fba2e138060",
+                    "reference": "ba69b6ce994dc06c38a070ea3c580fba2e138060",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "wpscholar/phpcs-standards-wpscholar": "@stable"
+                },
+                "time": "2020-12-11T07:28:47+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "fix": [
+                        "vendor/bin/phpcbf . -s"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs . -s"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Micah Wood",
+                        "homepage": "https://wpscholar.com"
+                    }
+                ],
+                "description": "Displays a new WordPress post every day.",
+                "support": {
+                    "source": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day/tree/dependabot/npm_and_yarn/ini-1.3.7",
                     "issues": "https://github.com/wpscholar-wp-plugins/wp-post-of-the-day/issues"
                 }
             },
